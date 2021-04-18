@@ -1,5 +1,5 @@
 pipeline {
-    agent websrv1
+    agent java
 
     stages {
         stage('Checkout') {
