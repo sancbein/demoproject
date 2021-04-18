@@ -1,5 +1,5 @@
 pipeline {
-    agent any
+    agent websrv1
 
     stages {
         stage('Checkout') {
